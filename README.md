@@ -1,1 +1,2 @@
-# angularRefresher
+# Angular Refresher
+Refresher on Angular
