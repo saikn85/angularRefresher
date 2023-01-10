@@ -1,0 +1,11 @@
+{
+  "name": "angularrefresher",
+  "version": "1.0.0",
+  "description": "Angular Refresher",
+  "scripts": {
+    "start": "ng serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mad Max",
+  "homepage": "https://github.com/saikn85/angularRefresher#readme"
+}
