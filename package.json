@@ -1,11 +1,19 @@
 {
   "name": "angularrefresher",
   "version": "1.0.0",
-  "description": "Angular Refresher",
+  "description": "Refresher on Angular",
+  "main": "index.js",
   "scripts": {
-    "start": "ng serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Mad Max",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saikn85/angularRefresher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saikn85/angularRefresher/issues"
+  },
   "homepage": "https://github.com/saikn85/angularRefresher#readme"
 }
