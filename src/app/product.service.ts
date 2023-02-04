@@ -1,5 +1,6 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
+import { Album } from "./album";
 
 @Injectable({
     providedIn: "root",
@@ -9,6 +10,6 @@ export class ProductService {
     constructor(private _http: HttpClient) {}
 
     getAlbum(id: number) {
-        return this._http.get(this._albumUrl);
+        return this._http.get<Album>(this._albumUrl);
     }
 }
